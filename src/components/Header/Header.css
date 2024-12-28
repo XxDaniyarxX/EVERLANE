@@ -1,0 +1,64 @@
+.Header {
+    width: 1400px;
+    height: 142px;
+}
+
+.header {
+    width: 1400px;
+    height: 30px;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 1340px;
+    height: 16px;
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: center;
+}
+.hover-line {
+    position: relative;
+    cursor: pointer;
+}
+
+.hover-line::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -16px;
+    height: 3px;
+    background-color: black;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.hover-line.active::after,
+.hover-line:hover::after {
+    transform: scaleX(1);
+}
+
+.h3-img.active::after,
+.h3-img:hover::after {
+    transform: scaleX(1);
+}
+.h3-img {
+    cursor: pointer;
+    position: absolute;
+    margin-left: 70px;
+}
+.h3-img::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 3px;
+    background-color: black;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
