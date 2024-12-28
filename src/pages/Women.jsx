@@ -154,7 +154,7 @@ export default function Women() {
         gap: '22px',
         fontSize: '12px',
         display: 'flex',
-        marginTop: '50px',
+        marginTop: '50px auto',
         justifyContent: 'center',
         alignItems: 'center'
       }}>
