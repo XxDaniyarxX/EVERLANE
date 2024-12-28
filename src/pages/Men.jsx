@@ -535,18 +535,19 @@ export default function Men() {
               <div className='img-aa' style={{
                 width: '1316px',
                 height: '196px',
+                marginTop: '50px',
                 gap: '13px',
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center'
               }}>
-                <img width={10} height={10} src={img_13} alt=""/>
-                <img src={img_20} alt=""/>
-                <img src={img_21} alt=""/>
-                <img src={img_22} alt=""/>
-                <img src={img_23} alt=""/>
-                <img src={img_24} alt=""/>
-                <img width={10} height={10} src={arow} alt=""/>
+                <img width={40} height={40} src={img_13} alt=""/>
+                <img width={125} src={img_20} alt=""/>
+                <img width={125} src={img_21} alt=""/>
+                <img width={125} src={img_22} alt=""/>
+                <img width={125} src={img_23} alt=""/>
+                <img width={125} src={img_24} alt=""/>
+                <img width={40} height={40} src={arow} alt=""/>
 
               </div>
             </div>
