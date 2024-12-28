@@ -154,6 +154,7 @@ export default function Women() {
         gap: '22px',
         fontSize: '12px',
         display: 'flex',
+        marginTop: '50px',
         justifyContent: 'center',
         alignItems: 'center'
       }}>
@@ -207,7 +208,7 @@ export default function Women() {
           </div>
           <h4 style={{color: '#737373', paddingTop: '5px'}}>Off-White</h4>
         </div>
-        <div style={{width: '120px', height: '461px'}}>
+        <div style={{width: '282px', height: '461px'}}>
           <img width={142} src={img_18} alt=""/>
           <div style={{
             display: 'flex',
@@ -278,7 +279,7 @@ export default function Women() {
         </div>
 
 
-         <div>
+         <div style={{width: '450px', height: "550px"}}>
           <img width={450} src={img5} alt=""/>
           <h3 style={{
             fontSize: '32px',
