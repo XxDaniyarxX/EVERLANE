@@ -563,8 +563,10 @@ export default function Men() {
               alignItems: 'center'
             }}>
               <div
-                style={{width: '411px', height: '157px', textAlign: 'center'}}>
-                <img width={78} src={img_25} alt=""/>
+                style={{width: '411px', height: '157px', textAlign: 'center',}}>
+                <div style={{width: '88px', margin: "0 auto"}}>
+                  <img width={78} src={img_25} alt=""/>
+                </div>
                 <h4 style={{
                   fontWeight: 'bold',
                   paddingTop: "10px",
