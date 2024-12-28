@@ -540,13 +540,13 @@ export default function Men() {
                 justifyContent: 'center',
                 alignItems: 'center'
               }}>
-                <img width={30} height={30} src={img_13} alt=""/>
+                <img width={10} height={10} src={img_13} alt=""/>
                 <img src={img_20} alt=""/>
                 <img src={img_21} alt=""/>
                 <img src={img_22} alt=""/>
                 <img src={img_23} alt=""/>
                 <img src={img_24} alt=""/>
-                <img width={30} height={30} src={arow} alt=""/>
+                <img width={10} height={10} src={arow} alt=""/>
 
               </div>
             </div>
@@ -585,7 +585,9 @@ export default function Men() {
               </div>
               <div
                 style={{width: '411px', height: '157px', textAlign: 'center'}}>
+                <div style={{width: '88px', margin: '0 auto'}}>
                 <img width={78} src={img_26} alt=""/>
+                </div>
                 <h4 style={{
                   fontWeight: 'bold',
                   paddingTop: "10px",
@@ -605,7 +607,9 @@ export default function Men() {
 
               <div
                 style={{width: '411px', height: '157px', textAlign: 'center'}}>
+                <div style={{width: '88px', margin: '0 auto'}}>
                 <img width={78} src={img_27} alt=""/>
+                </div>
                 <h4 style={{
                   fontWeight: 'bold',
                   paddingTop: "10px",
