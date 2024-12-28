@@ -558,7 +558,9 @@ export default function Men() {
               paddingTop: '50px',
               paddingRight: '77px',
               paddingLeft: '77px',
-              display: 'flex'
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center'
             }}>
               <div
                 style={{width: '411px', height: '157px', textAlign: 'center'}}>
