@@ -212,10 +212,10 @@ export default function Women() {
           <img width={142} src={img_18} alt=""/>
           <div style={{
             display: 'flex',
-            width: '282px',
+            width: '151px',
             justifyContent: 'space-between'
           }}>
-            <h4>The Re:Down@Puffer </h4>
+            <h4 style={{fontWeight: 'normal'}}>The Re:Down@Puffer </h4>
           </div>
           <h4 style={{color: '#737373', paddingTop: '5px'}}>Bone</h4>
         </div>
