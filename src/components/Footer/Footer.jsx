@@ -3,7 +3,7 @@ import arr from '../../assets/image/img_26.png'
 export default function Footer() {
   return (
     <div style={{width:'100%' ,height:'440px', backgroundColor: '#F5F4F4', paddingTop: '40px', paddingLeft: '72px', paddingRight: '72px'}}>
-       <div style={{width: '1256px', height: '280px', paddingTop: '20px', gap: '10px', display: 'flex'}}>
+       <div style={{width: '1256px', height: '315px', paddingTop: '20px', gap: '10px', display: 'flex'}}>
            <div style={{width: '194px', height: '155px', paddingTop: '20px',}}>
              <h4 style={{fontWeight: "bold"}}>Account</h4>
              <h4 style={{color: '#737373', letterSpacing: '1.4px', paddingTop: "20px", fontWeight: 'normal'}}>Log In</h4>
@@ -29,7 +29,7 @@ export default function Footer() {
              <h4 style={{color: '#737373', letterSpacing: '1.4px', paddingTop: '10px', fontWeight: 'normal'}}>Bulk Orders</h4>
            </div>
 
-            <div style={{width: '194px', height: '314px', paddingTop: '20px',}}>
+            <div style={{width: '194px', height: '250px', paddingTop: '20px',}}>
              <h4 style={{fontWeight: "bold"}}>Connect</h4>
              <h4 style={{color: '#737373', letterSpacing: '1.4px', paddingTop: "20px", fontWeight: 'normal'}}>Facebook</h4>
              <h4 style={{color: '#737373', letterSpacing: '1.4px', paddingTop: '10px', fontWeight: 'normal'}}>Instagram</h4>
