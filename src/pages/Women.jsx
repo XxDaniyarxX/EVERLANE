@@ -146,7 +146,7 @@ export default function Women() {
       <h4 style={{
         textAlign: 'center',
         fontSize: "40px",
-        paddingBottom: "20px"
+        paddingTop: '20px'
       }}>The White Whites Edit</h4>
       <div className='h4-hh' style={{
         width: '100%',
