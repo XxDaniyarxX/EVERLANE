@@ -29,7 +29,7 @@ export default function Footer() {
              <h4 style={{color: '#737373', letterSpacing: '1.4px', paddingTop: '10px', fontWeight: 'normal'}}>Bulk Orders</h4>
            </div>
 
-            <div style={{width: '314px', height: '182px', paddingTop: '20px',}}>
+            <div style={{width: '194px', height: '314px', paddingTop: '20px',}}>
              <h4 style={{fontWeight: "bold"}}>Connect</h4>
              <h4 style={{color: '#737373', letterSpacing: '1.4px', paddingTop: "20px", fontWeight: 'normal'}}>Facebook</h4>
              <h4 style={{color: '#737373', letterSpacing: '1.4px', paddingTop: '10px', fontWeight: 'normal'}}>Instagram</h4>
