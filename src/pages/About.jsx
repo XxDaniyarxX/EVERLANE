@@ -16,7 +16,7 @@ export default function About() {
            At Everlane, we want the right choice to be as easy as putting on a great T-shirt. That’s why we partner with the best, ethical factories around the world. Source only the finest materials. And share those stories with you—down to the true cost of every product we make. It’s a new way of doing things. We call it Radical Transparency.
          </div>
       </div>
-      <div style={{display: "flex"}}>
+      <div style={{display: "flex", marginTop: '40px'}}>
         <img width={700} src={img2} alt=""/>
         <div style={{backgroundColor: '#E6DED8', width: '700px', paddingTop: '282px', height: '733px', paddingRight: '70px', paddingLeft: '70px'}}>
          <h4>OUR FACTORIES</h4>
