@@ -12,7 +12,7 @@ export default function About() {
     <main>
       <img src={img} alt=""/>
       <div style={{width: '100%', height: '525px', paddingTop: '76px' , paddingBottom: '3px', paddingLeft:'258px', paddingRight: "258px" }}>
-         <div style={{width: '780px', height: '373px', fontSize: '38px', fontWeight: 'normal', textAlign: 'center'}}>
+         <div style={{width: '780px', height: '373px', margin: '0 auto', fontSize: '38px', fontWeight: 'normal', textAlign: 'center'}}>
            At Everlane, we want the right choice to be as easy as putting on a great T-shirt. That’s why we partner with the best, ethical factories around the world. Source only the finest materials. And share those stories with you—down to the true cost of every product we make. It’s a new way of doing things. We call it Radical Transparency.
          </div>
       </div>
