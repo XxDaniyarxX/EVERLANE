@@ -43,7 +43,7 @@ export default function Footer() {
             </div>
        </div>
         <nav style={{paddingTop: '16px', paddingBottom: '16px', marginTop: '10px'}}>
-           <ul style={{display: 'flex', gap: '11px', margin: '0 auto', width: '1256px', color: 'gray', listStyle: 'none', fontSize: '12px', fontWeight: 'normal'}}>
+           <ul style={{display: 'flex', gap: '37px', margin: '0 auto', width: '1120px', color: 'gray', listStyle: 'none', fontSize: '12px', fontWeight: 'normal'}}>
              <li>Privacy Policy</li>
              <li>Terms of Service</li>
              <li>Do Not Sell or Share My Personal Information</li>
