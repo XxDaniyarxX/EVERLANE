@@ -154,7 +154,7 @@ export default function Women() {
         gap: '22px',
         fontSize: '12px',
         display: 'flex',
-        margin: '150px auto',
+        margin: '80px auto',
         justifyContent: 'center',
         alignItems: 'center'
       }}>
@@ -230,7 +230,7 @@ export default function Women() {
         color: 'white',
         marginLeft: "600px",
         marginBottom: '60px',
-        marginTop: "40px"
+        marginTop: "20px"
       }}>Shop Now
       </button>
 
