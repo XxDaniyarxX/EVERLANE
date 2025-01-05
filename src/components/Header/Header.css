@@ -19,12 +19,13 @@
     display: flex;
     justify-content: center;
 }
+
 .hover-line {
     position: relative;
     cursor: pointer;
-}
-
-.hover-line::after {
+  }
+  
+  .hover-line::after {
     content: "";
     position: absolute;
     left: 0;
@@ -35,12 +36,16 @@
     transform: scaleX(0);
     transform-origin: center;
     transition: transform 0.3s ease;
-}
-
-.hover-line.active::after,
-.hover-line:hover::after {
+  }
+  
+  .hover-line.active::after {
     transform: scaleX(1);
-}
+  }
+  
+  .hover-line:hover::after {
+    transform: scaleX(1);
+  }
+  
 
 .h3-img.active::after,
 .h3-img:hover::after {

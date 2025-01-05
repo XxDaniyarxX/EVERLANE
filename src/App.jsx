@@ -8,5 +8,6 @@ export default function App() {
     <div style={{margin: '0 auto', width: '1400px',}}>
       <RouterProvider router={myRouter} />
     </div>
+
   )
 }
